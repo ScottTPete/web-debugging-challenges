@@ -1,5 +1,6 @@
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
+
 var birdSchema = require('./BirdSchema');
 
 var sightingSchema = new Schema({
@@ -17,6 +18,7 @@ var sightingSchema = new Schema({
         min: 1
     }
 });
+
 
 
 
